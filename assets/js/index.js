@@ -8,7 +8,6 @@ const btnSumar = document.querySelector("#sumar");
 const btnRestar = document.querySelector("#restar");
 const total = document.querySelector("#total");
 
-
 cantidad.innerHTML = cant;
 precioUnidad.innerHTML = precio;
 total.innerHTML = tot;
@@ -19,7 +18,6 @@ btnSumar.addEventListener("click", () => {
      cantidad.innerHTML = cant;
      total.innerHTML = tot; 
 });
-
 
 btnRestar.addEventListener("click", () => {
     if (cant > 1){
