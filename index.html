@@ -15,24 +15,20 @@
         <div class="card">
             <div class="img-card"></div>
               <h6>Laptop Gamer AMD</h6>
-              <p>Precio base: $<span class="precio-inicial"></span> </p>
+              <p>Precio base: $<span id="precioUnidad"></span> </p>
         
               <p>Cantidad:
-                <span class="cantidad">0</span>
-                <button class="sumar"
+                <span id="cantidad">0</span>
+                <button id="sumar"
                 onclick='
-                let span = document.querySelector(".precio-inicial")
-                let spanValorTotal = Number(span.textContent)
-                console.log(spanValorTotal)
-                span.innerHTML = spanValorTotal + precio
+                //let span = document.querySelector(".precio-inicial")
+                //let spanValorTotal = Number(span.textContent)
+                //console.log(spanValorTotal)
+                //span.innerHTML = spanValorTotal + precio
                 '>+</button>
                 
-                <button class="restar"
+                <button id="restar"
                 onclick='
-                let span = document.querySelector(".precio-inicial")
-                let spanValorTotal2 = Number(span.textContent)
-                console.log(spanValorTotal)
-                span.innerHTML = spanValorTotal2 - precio
                 '>-</button>
               </p>
             </div>
@@ -41,7 +37,7 @@
     </section>
 
     <div class="total-section">
-        <p>Total a pagar: $<span class="valor-total"></span> </p>
+        <p>Total a pagar: $<span id="total"></span> </p>
     </div>
 
     <script src="./assets/js/index.js">

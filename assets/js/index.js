@@ -1,13 +1,20 @@
-let precio = 400000
-let cantidad =0
-//let precioFinal = 
+const precio = 400000;
+let unidades =1;
+let precioFinal;
 
-precioSpan = document.querySelector(".precio-inicial");
-precioSpan.innerHTML = precio
+const precioUnidad = document.querySelector("#precioUnidad");
+const cantidad = document.querySelector("#cantidad");
+const sumar = document.querySelector("#sumar");
+const restar = document.querySelector("#restar");
+const total = document.querySelector("#total");
+
+cantidad.innerHTML = unidades;
+precioUnidad.innerHTML = precio;
+total.innerHTML = precioFinal;
 
 
-precioSpan = document.querySelector("#sumar");
 
-precioSpan = document.querySelector("#restar");
 
-spanValorTotal = document.querySelector("#valor-total")
+
+
+ 
